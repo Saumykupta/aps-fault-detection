@@ -1,0 +1,37 @@
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+
+__pypackages__/
+
+# Celery stuff
+
+celerybeat-schedule
+
+# SageMath parsed files
+
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#Spyder project setting
+.spyderproject
+
+#Rope project setting
+.ropeproject
+
+#mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+#Pyre types checker
+.pyre/
